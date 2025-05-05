@@ -12,7 +12,7 @@ namespace Q4_ProgrammingLanguages_QA_InventorySystemUI
             Inventory.Add(item);
         }
 
-        public static bool RemoveItem(int index, out string removedItem)
+        public static bool RemoveItem(int index, out string? removedItem)
         {
             if (index >= 0 && index < Inventory.Count)
             {

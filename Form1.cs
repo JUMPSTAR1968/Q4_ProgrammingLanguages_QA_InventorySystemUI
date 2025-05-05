@@ -53,5 +53,10 @@ namespace Q4_ProgrammingLanguages_QA_InventorySystemUI
         {
 
         }
+
+        private void lstInventory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

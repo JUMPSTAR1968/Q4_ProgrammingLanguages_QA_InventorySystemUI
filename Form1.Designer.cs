@@ -33,6 +33,7 @@ namespace Q4_ProgrammingLanguages_QA_InventorySystemUI
             lstInventory.Name = "lstInventory";
             lstInventory.Size = new Size(176, 259);
             lstInventory.TabIndex = 0;
+            lstInventory.SelectedIndexChanged += lstInventory_SelectedIndexChanged;
             // 
             // txtNewItem
             // 
